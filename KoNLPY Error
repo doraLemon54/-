@@ -1,0 +1,8 @@
+RuntimeError                              Traceback (most recent call last)
+RuntimeError: module compiled against API version 0xc but this version of numpy is 0xb
+---------------------------------------------------------------------------
+ImportError: numpy.core.multiarray failed to import
+
+---------------------------------------------------------------------------
+API와 Numpy 버전의 불일치가 원인 
+Numpy 버전을 업그레이드 해줌으로써 문제해결 가능 
